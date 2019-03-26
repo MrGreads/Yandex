@@ -1,0 +1,150 @@
+.contener{
+    width:37.5%;
+    margin: 0 auto;
+    margin-left: 18.4%;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    border-color: #a9a9a9;
+    padding-bottom:6px;
+}
+body{
+    border:solid 1px;
+    border-color: #a9a9a9;
+    margin:10px;
+    margin-top: 0px;
+    pading:0;
+
+}
+.header-top .logo{
+    font-size: 25px;
+    height:5%;
+    margin:15px;
+    margin-left: 1.75%;
+    font-family:arial;
+    align-items: center;
+}
+.find{
+    display: flex;
+    flex:auto;
+    margin: 0.5%;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.find input {
+    width:40%;
+}
+.find button{
+    width: 7.5%;
+    min-width: 52px;
+    margin-left: 1px;
+}
+.userImg{
+    border-radius: 80%;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 2.3%;
+}
+.header-nav{
+    border-bottom: solid 1px;
+    border-color: #a9a9a9;
+}
+.header-nav ul{
+    margin-top: 20px;
+    padding-bottom: 19px;
+    display:flex;
+    justify-content: flex-start;
+}
+.header-nav ul li  :hover{
+    border-bottom: 3px solid;
+}
+ li{
+    list-style-type: none;
+    margin-right: 5%;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    font-family:arial;
+}
+.main-nav ul{
+    margin-bottom: 19px;
+    display:flex;
+    justify-content: flex-start;
+    padding: 0px;
+    margin-left: -1%;
+    margin-top:27px;
+}
+.main-nav ul li{
+    border:solid 1px;
+    padding:2px 16.5px;
+    margin:0px;
+    border-color: #a9a9a9;
+}
+.main-nav ul :hover{
+    background-color: rgba(255, 197, 14, 0.65);
+
+}
+.main-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 24px;
+}
+.asses{
+    font-family:arial;
+    min-height:20px;
+    min-width: 20px;
+    height: 20px;
+    background-color: #ffc50e;
+    padding:3px 5px 3px 8px;
+
+}
+.dir:after{
+    content: "";
+    display: inline-block;
+    border: 13px solid transparent;
+    border-left: 14px solid #ffc50e;
+    margin-top: -1px;
+}
+.dir{
+    display:flex;
+    margin-left: 10px;
+}
+.commit{
+    margin-bottom: 20px;
+}
+.name{
+    font-size:14px;
+    font-family:"Arial Rounded MT Bold";
+}
+.header-commit{
+    margin-bottom: 8px;
+}
+.header-commit time{
+    font-size: 14px; color: silver;
+}
+.header-commit .assessment{
+    color:silver;
+}
+.send{
+    margin-top:8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right:30%;
+}
+.send a{
+    margin-top: 2px;
+}
+.header-commit img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: -8px;
+}
